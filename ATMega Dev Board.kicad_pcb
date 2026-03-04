@@ -6446,7 +6446,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "d33115f7-f72b-413c-991a-c86088435b4c")
+			(uuid "69e548be-430c-42e9-bf4f-55ef260105ed")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 -3.13 90)
@@ -6458,7 +6458,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "d33115f7-f72b-413c-991a-c86088435b4c")
+			(uuid "27268f25-9576-4977-a931-bc4d11902c51")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 1.05 90)
@@ -6470,7 +6470,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "d33115f7-f72b-413c-991a-c86088435b4c")
+			(uuid "5dfb304c-31ac-43c9-a536-cf81f7b223e1")
 		)
 		(embedded_fonts no)
 		(embedded_files
@@ -9932,8 +9932,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "ATMega32A test board\nRev A"
-		(at 96.69 109.02 -0)
+	(gr_text "Rev A - Feb 2026\ngithub.com/spassigl/ATMega32A-simple-board.git"
+		(at 139.68 102.69 0)
 		(layer "B.SilkS")
 		(uuid "d6bb4248-8116-41fe-a592-4f0fee0c59d1")
 		(effects
