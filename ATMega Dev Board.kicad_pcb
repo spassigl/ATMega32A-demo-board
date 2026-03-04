@@ -10026,7 +10026,7 @@
 	(segment
 		(start 95.12 87.53)
 		(end 95.12 88.9925)
-		(width 0.2)
+		(width 0.4)
 		(layer "F.Cu")
 		(net 2)
 		(uuid "8ba45a90-ed1a-46a4-b9ef-2ead7e701efa")
