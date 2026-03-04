@@ -11,5 +11,5 @@ It's a small factor pcb - 84x44mm - with the following features:
 - Includes a buzzer, two LEDs, two tactile buttons
 - Footprints are optimized for JLCPCB and "Basic" or "Preferred Extended" parts, to lower assembly costs
 
-  <img width="3968" height="2276" alt="ATMega Dev Board" src="https://github.com/user-attachments/assets/8ff58671-ff9f-4e41-9d11-1ec16b44277f" />
+<img src="images/ATMega Dev Board.png">
 
