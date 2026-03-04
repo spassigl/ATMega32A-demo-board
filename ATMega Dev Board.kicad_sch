@@ -11459,7 +11459,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
+		(property "Footprint" "FTBLib:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 210.82 49.53 0)
 			(effects
 				(font
