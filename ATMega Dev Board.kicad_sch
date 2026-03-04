@@ -9920,90 +9920,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 50.8 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "627d92fd-42b4-4b81-be54-7b267704c381")
-		(property "Reference" "C6"
-			(at 44.704 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 44.45 40.132 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 50.8 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 50.8 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 44.704 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c0a4ddd8-6fa8-4e6f-a3f3-4615de99d4fd")
-		)
-		(pin "1"
-			(uuid "2b946316-5b2d-414e-9d15-bb4c31882164")
-		)
-		(instances
-			(project "FTBTimer"
-				(path "/4c984bef-51cd-42e2-a43e-17b5e9351018"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/70bbf962-aa97-42ae-8e7e-b12a946a1ea0"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
 		(at 163.83 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11996,71 +11912,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 50.8 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c6ec319f-8895-4a9d-b22f-968e76046cac")
-		(property "Reference" "#PWR03"
-			(at 50.8 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 46.99 43.688 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "be1b8fd6-c1a7-4cce-8841-2c4b136639f5")
-		)
-		(instances
-			(project "ATMega Dev Board"
-				(path "/70bbf962-aa97-42ae-8e7e-b12a946a1ea0"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 194.31 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12988,8 +12839,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4k7"
-			(at 51.816 35.052 0)
+		(property "Value" "10k"
+			(at 50.8 36.068 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13024,7 +12875,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23162"
+		(property "LCSC" "C25804"
 			(at 50.8 34.29 0)
 			(effects
 				(font
