@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ATMDBL")(type "KiCad")(uri "${KIPRJMOD}/libs/ATMDBL.pretty")(options "")(descr ""))
+)

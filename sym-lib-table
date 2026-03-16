@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ATMDBL")(type "KiCad")(uri "${KIPRJMOD}/libs/ATMDBL.kicad_sym")(options "")(descr ""))
+)
