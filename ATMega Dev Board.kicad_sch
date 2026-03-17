@@ -16203,7 +16203,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C21189"
+		(property "LCSC" "C23186"
 			(at 241.3 43.18 0)
 			(effects
 				(font
@@ -16338,6 +16338,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 190.5 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 190.5 108.966 0)
 			(effects
 				(font
 					(size 1.27 1.27)
