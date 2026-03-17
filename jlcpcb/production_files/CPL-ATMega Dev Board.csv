@@ -1,8 +1,9 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 C1,22p,C_0603_1608Metric,36.0,16.0,-90.0,top
-C10,0.1u,C_0603_1608Metric,76.5,18.0,90.0,top
+C10,0.1u,C_0603_1608Metric,75.5,16.5,90.0,top
 C11,10u,C_0805_2012Metric,72.3125,38.8,180.0,top
 C12,0.1u,C_0603_1608Metric,65.5625,38.8,0.0,top
+C13,0.1u,C_0603_1608Metric,77.0,24.5,90.0,top
 C2,22p,C_0603_1608Metric,33.5,18.5,180.0,top
 C3,0.1u,C_0603_1608Metric,36.5,22.0,-90.0,top
 C4,0.1u,C_0603_1608Metric,44.0,14.0,0.0,top
@@ -20,8 +21,8 @@ F1,1A,Fuse_1206_3216Metric,83.0,28.0,180.0,top
 FID1,Fiducial,Fiducial_1mm_Mask2mm,4.5,33.5,0.0,top
 FID2,Fiducial,Fiducial_1mm_Mask2mm,4.5,9.5,0.0,top
 FID3,Fiducial,Fiducial_1mm_Mask2mm,83.5,9.5,0.0,top
-J1,Conn_01x13,PinSocket_1x14_P2.54mm_Vertical,42.639091,39.5,90.0,top
-J2,Conn_01x09,PinSocket_1x11_P2.54mm_Vertical,43.77,3.28,90.0,top
+J1,Conn_01x14,PinSocket_1x14_P2.54mm_Vertical,42.639091,39.5,90.0,top
+J2,Conn_01x11,PinSocket_1x11_P2.54mm_Vertical,43.77,3.28,90.0,top
 J3,SPI header,IDC-Header_2x03_P2.54mm_Vertical,5.0,21.45,0.0,top
 J4,USB-C_31-M-12,USB_C_Receptacle_HRO_TYPE-C-31-M-12,83.29,21.5,90.0,top
 L1,10uH,L_0805_2012Metric,54.5,24.25,-90.0,top
@@ -30,12 +31,12 @@ Q1,S8050,SOT-23,20.12,13.8875,0.0,top
 Q2,2N7002,SOT-23,76.0625,35.7,180.0,top
 Q3,HL6042,SOT-23,72.0625,35.7,180.0,top
 Q4,HL6042,SOT-23,68.0625,35.7,180.0,top
-R1,220,R_0603_1608Metric,57.575,19.5,90.0,top
+R1,510,R_0603_1608Metric,57.5,19.5,90.0,top
 R10,5k1,R_0603_1608Metric,78.75,18.5,90.0,top
 R11,5k1,R_0603_1608Metric,78.75,24.5,-90.0,top
 R12,510,R_0603_1608Metric,84.0,15.0,0.0,top
 R13,0R,R_0603_1608Metric,68.8125,38.8,180.0,top
-R2,220,R_0603_1608Metric,66.575,19.5,90.0,top
+R2,510,R_0603_1608Metric,66.75,19.5,90.0,top
 R3,10k,R_0603_1608Metric,37.5,27.5,0.0,top
 R4,1k,R_0603_1608Metric,23.01,13.8475,-90.0,top
 R5,5k1,C_0603_1608Metric,42.5,10.0,0.0,top

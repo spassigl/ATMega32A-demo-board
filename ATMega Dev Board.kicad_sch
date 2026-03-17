@@ -7148,6 +7148,12 @@
 		(uuid "da5db8c7-9f5c-481b-b1e8-34c7aec4d9fb")
 	)
 	(junction
+		(at 238.76 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02598a93-c00c-4b7c-888d-c7337a6143ab")
+	)
+	(junction
 		(at 177.8 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7462,6 +7468,16 @@
 			(type default)
 		)
 		(uuid "0a80082d-7cbf-4bf2-a352-0b148fa7d9e2")
+	)
+	(wire
+		(pts
+			(xy 238.76 24.13) (xy 243.84 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a83451e-5ef2-4bef-b924-10d33e539453")
 	)
 	(wire
 		(pts
@@ -7905,7 +7921,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 24.13) (xy 236.22 24.13)
+			(xy 226.06 24.13) (xy 229.87 24.13)
 		)
 		(stroke
 			(width 0)
@@ -8875,7 +8891,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 24.13) (xy 243.84 24.13)
+			(xy 234.95 24.13) (xy 238.76 24.13)
 		)
 		(stroke
 			(width 0)
@@ -10727,6 +10743,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 36.83 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0da474af-9b11-4271-a3b2-059b0faee21a")
+		(property "Reference" "R2"
+			(at 36.83 149.86 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "510"
+			(at 38.608 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 36.83 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 36.83 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23193"
+			(at 36.83 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cda55fb5-86c5-4aae-a560-d960a277cd76")
+		)
+		(pin "2"
+			(uuid "3a40dbd2-bab0-4740-bf50-da26f1164060")
+		)
+		(instances
+			(project "ATMega Dev Board"
+				(path "/70bbf962-aa97-42ae-8e7e-b12a946a1ea0"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED_Small")
 		(at 44.45 151.13 180)
 		(unit 1)
@@ -11004,7 +11098,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse_Small")
-		(at 238.76 24.13 90)
+		(at 232.41 24.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11012,7 +11106,7 @@
 		(dnp no)
 		(uuid "216ff4b0-4152-4e9c-acc8-7f75eae7b8b9")
 		(property "Reference" "F1"
-			(at 238.76 22.352 90)
+			(at 232.41 22.352 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11022,7 +11116,7 @@
 			)
 		)
 		(property "Value" "1A"
-			(at 239.522 22.098 90)
+			(at 233.172 22.098 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11031,7 +11125,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-			(at 243.84 22.86 0)
+			(at 237.49 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11041,7 +11135,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 24.13 0)
+			(at 232.41 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11050,7 +11144,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
-			(at 238.76 24.13 0)
+			(at 232.41 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11059,7 +11153,7 @@
 			)
 		)
 		(property "LCSC" "C69688"
-			(at 236.982 22.098 0)
+			(at 230.632 22.098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11221,84 +11315,6 @@
 			(project "ATMega Dev Board"
 				(path "/70bbf962-aa97-42ae-8e7e-b12a946a1ea0"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 36.83 144.78 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "23ef5dce-7562-483c-be75-7550667ddb2f")
-		(property "Reference" "R1"
-			(at 36.83 143.51 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220"
-			(at 38.354 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 36.83 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 36.83 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 36.83 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22962"
-			(at 36.83 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "31b29cb6-41d7-4246-a52d-737bbebf43f5")
-		)
-		(pin "2"
-			(uuid "43b81637-5160-4f89-b2b0-e89c9238c9f2")
-		)
-		(instances
-			(project "ATMega Dev Board"
-				(path "/70bbf962-aa97-42ae-8e7e-b12a946a1ea0"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -13078,7 +13094,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 232.41 24.13 0)
+		(at 226.06 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13086,7 +13102,7 @@
 		(dnp no)
 		(uuid "5c82917a-7f56-487b-a2cc-eb95f2698258")
 		(property "Reference" "#PWR033"
-			(at 232.41 27.94 0)
+			(at 226.06 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13095,7 +13111,7 @@
 			)
 		)
 		(property "Value" "VUSB"
-			(at 229.87 20.32 0)
+			(at 223.52 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13104,7 +13120,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 24.13 0)
+			(at 226.06 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13113,7 +13129,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 24.13 0)
+			(at 226.06 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13122,7 +13138,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 232.41 24.13 0)
+			(at 226.06 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13137,6 +13153,72 @@
 			(project "ATMega Dev Board"
 				(path "/70bbf962-aa97-42ae-8e7e-b12a946a1ea0"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 238.76 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e2817e8-0251-4b10-ab05-7b54bbd336f7")
+		(property "Reference" "#PWR09"
+			(at 238.76 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 238.76 33.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 238.76 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4045688-6581-4111-bfbb-bb8ddbebdfa5")
+		)
+		(instances
+			(project "ATMega Dev Board"
+				(path "/70bbf962-aa97-42ae-8e7e-b12a946a1ea0"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -15249,84 +15331,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 36.83 151.13 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9b581df3-6975-4c5f-8c45-52a1c0a00953")
-		(property "Reference" "R2"
-			(at 36.83 149.86 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220"
-			(at 38.354 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 36.83 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 36.83 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 36.83 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22962"
-			(at 36.83 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "956b69d3-0e2c-4d88-8fc2-f8a34daea142")
-		)
-		(pin "2"
-			(uuid "e2bbf6ca-5bc7-4355-a2e2-824c1406a9bc")
-		)
-		(instances
-			(project "ATMega Dev Board"
-				(path "/70bbf962-aa97-42ae-8e7e-b12a946a1ea0"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 80.01 162.56 0)
 		(unit 1)
@@ -16832,6 +16836,84 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
+		(at 36.83 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc0e068b-6283-4f97-84a8-70317295f4ac")
+		(property "Reference" "R1"
+			(at 36.83 143.51 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "510"
+			(at 38.608 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 36.83 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 36.83 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23193"
+			(at 36.83 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84673f2c-fecd-4e5c-bfb8-b9eb1224262b")
+		)
+		(pin "2"
+			(uuid "b088bf8d-958a-43bd-b708-1b2af217f9f0")
+		)
+		(instances
+			(project "ATMega Dev Board"
+				(path "/70bbf962-aa97-42ae-8e7e-b12a946a1ea0"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
 		(at 161.29 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16903,6 +16985,84 @@
 			(project "ATMega Dev Board"
 				(path "/70bbf962-aa97-42ae-8e7e-b12a946a1ea0"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 238.76 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dddfd5f6-8246-4329-91e5-47631190ddf7")
+		(property "Reference" "C13"
+			(at 232.918 26.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 232.664 28.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 238.76 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 238.76 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 238.76 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d2c1ab64-1423-4b21-a933-229f67a5d3fb")
+		)
+		(pin "1"
+			(uuid "f32b66c3-0984-4dea-8179-9a7ae770ba74")
+		)
+		(instances
+			(project "ATMega Dev Board"
+				(path "/70bbf962-aa97-42ae-8e7e-b12a946a1ea0"
+					(reference "C13")
 					(unit 1)
 				)
 			)
