@@ -7,8 +7,8 @@ C2,22p,C_0603_1608Metric,33.5,18.5,180.0,top
 C3,0.1u,C_0603_1608Metric,36.5,22.0,-90.0,top
 C4,0.1u,C_0603_1608Metric,44.0,14.0,0.0,top
 C5,0.1u,C_0603_1608Metric,45.0,29.0,180.0,top
-C6,0.1u,C_0603_1608Metric,51.5,21.0,90.0,top
-C7,0.1u,C_0603_1608Metric,52.7,24.1,-90.0,top
+C6,0.1u,C_0603_1608Metric,51.75,21.5,90.0,top
+C7,0.1u,C_0603_1608Metric,52.75,25.25,90.0,top
 C8,0.1u,C_0603_1608Metric,35.0,23.0,-90.0,top
 C9,0.1u,C_0603_1608Metric,72.5,17.5,0.0,top
 D1,LED,LED_0603_1608Metric,59.075,19.5,-90.0,top
@@ -20,10 +20,11 @@ F1,1A,Fuse_1206_3216Metric,83.0,28.0,180.0,top
 FID1,Fiducial,Fiducial_1mm_Mask2mm,4.5,33.5,0.0,top
 FID2,Fiducial,Fiducial_1mm_Mask2mm,4.5,9.5,0.0,top
 FID3,Fiducial,Fiducial_1mm_Mask2mm,83.5,9.5,0.0,top
-J1,Conn_01x13,PinSocket_1x13_P2.54mm_Vertical,43.76,39.5,90.0,top
+J1,Conn_01x13,PinSocket_1x14_P2.54mm_Vertical,42.639091,39.5,90.0,top
 J2,Conn_01x09,PinSocket_1x11_P2.54mm_Vertical,43.77,3.28,90.0,top
 J3,SPI header,IDC-Header_2x03_P2.54mm_Vertical,5.0,21.45,0.0,top
 J4,USB-C_31-M-12,USB_C_Receptacle_HRO_TYPE-C-31-M-12,83.29,21.5,90.0,top
+L1,10uH,L_0805_2012Metric,54.5,24.25,-90.0,top
 LS1,Speaker,Buzzer_MLT-9650,23.0,21.5,0.0,top
 Q1,S8050,SOT-23,20.12,13.8875,0.0,top
 Q2,2N7002,SOT-23,76.0625,35.7,180.0,top

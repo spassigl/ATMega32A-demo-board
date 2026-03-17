@@ -637,6 +637,10 @@
       {
         "netclass": "I2C",
         "pattern": "/SDA*"
+      },
+      {
+        "netclass": "VCC",
+        "pattern": "/AVCC"
       }
     ]
   },
