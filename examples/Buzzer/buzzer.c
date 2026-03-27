@@ -1,7 +1,7 @@
 #include "buzzer.h"
 
-static volatile uint8_t toggle_limit = 0;
-static volatile uint8_t toggle_count = 0;
+static volatile uint16_t toggle_limit = 0;
+static volatile uint16_t toggle_count = 0;
 
 void buzzer_init(void) {
     DDRD |= (1 << PD2); // Keep PD2
